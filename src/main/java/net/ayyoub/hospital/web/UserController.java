@@ -1,8 +1,8 @@
-package ma.fs.hospital.web;
+package net.ayyoub.hospital.web;
 
 import lombok.RequiredArgsConstructor;
-import ma.fs.hospital.entities.User;
-import ma.fs.hospital.repository.UserRepository;
+import net.ayyoub.hospital.entities.User;
+import net.ayyoub.hospital.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

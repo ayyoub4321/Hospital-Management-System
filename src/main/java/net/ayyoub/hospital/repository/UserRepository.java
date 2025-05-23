@@ -1,6 +1,6 @@
-package ma.fs.hospital.repository;
+package net.ayyoub.hospital.repository;
 
-import ma.fs.hospital.entities.User;
+import net.ayyoub.hospital.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

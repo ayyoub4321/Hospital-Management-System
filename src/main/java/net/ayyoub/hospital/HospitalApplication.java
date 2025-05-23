@@ -1,7 +1,7 @@
-package ma.fs.hospital;
+package net.ayyoub.hospital;
 
-import ma.fs.hospital.entities.Patient;
-import ma.fs.hospital.repository.PatientRepository;
+import net.ayyoub.hospital.entities.Patient;
+import net.ayyoub.hospital.repository.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -32,9 +32,9 @@ public class HospitalApplication implements CommandLineRunner {
 //
 //        Patient patient3 = Patient.builder().name("Imane").dateNaissance(new Date()).maladie(false).score(12).build();
 
-        patientRepository.save(new Patient(null, "Ahmed", LocalDate.now(), Boolean.FALSE, 23));
-        patientRepository.save(new Patient(null, "Yassine", LocalDate.now(), Boolean.TRUE, 123));
-        patientRepository.save(Patient.builder().name("Imane").dateNaissance(LocalDate.now()).maladie(true).score(12).build());
+        patientRepository.save(new Patient(null, "ayyoub", LocalDate.now(), Boolean.FALSE, 23));
+        patientRepository.save(new Patient(null, "nachid", LocalDate.now(), Boolean.TRUE, 123));
+        patientRepository.save(Patient.builder().name("rashid").dateNaissance(LocalDate.now()).maladie(true).score(12).build());
     }
 }
 

@@ -1,6 +1,6 @@
-package ma.fs.hospital.repository;
+package net.ayyoub.hospital.repository;
 
-import ma.fs.hospital.entities.Patient;
+import net.ayyoub.hospital.entities.Patient;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

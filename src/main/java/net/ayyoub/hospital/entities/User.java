@@ -1,4 +1,4 @@
-package ma.fs.hospital.entities;
+package net.ayyoub.hospital.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

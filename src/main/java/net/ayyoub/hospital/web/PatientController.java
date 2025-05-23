@@ -1,11 +1,11 @@
-package ma.fs.hospital.web;
+package net.ayyoub.hospital.web;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.ui.Model;
 import lombok.AllArgsConstructor;
-import ma.fs.hospital.entities.Patient;
-import ma.fs.hospital.repository.PatientRepository;
+import net.ayyoub.hospital.entities.Patient;
+import net.ayyoub.hospital.repository.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
