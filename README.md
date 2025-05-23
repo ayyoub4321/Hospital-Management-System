@@ -1,17 +1,20 @@
 # Hospital Management Application
+## Auteurs
+
+- **Nom :** Ayyoub  
+- **Prénom :** Ait mansour 
+- **Filière :**SDIA
+- **TP :** TP1
 
 Ce projet est une application web Java EE basée sur Spring Boot 3.5.0, Spring MVC, Thymeleaf, Spring Data JPA et Spring Security. Elle permet de gérer les patients avec des fonctionnalités comme l'affichage, la pagination, la recherche, la suppression, la validation des formulaires et une sécurité robuste.
 
 ## Table des matières
 - [Prérequis](#prérequis)
 - [Installation](#installation)
-- [Exécution](#exécution)
 - [Fonctionnalités](#fonctionnalités)
 - [Structure du projet](#structure-du-projet)
 - [Configuration de sécurité](#configuration-de-sécurité)
 - [Contributeurs](#contributeurs)
-- [Licence](#licence)
-- [Dernière mise à jour](#dernière-mise-à-jour)
 
 ## Prérequis
 - Java 17 ou une version supérieure
